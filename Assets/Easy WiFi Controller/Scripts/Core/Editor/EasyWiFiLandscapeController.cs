@@ -24,7 +24,7 @@ public static class EasyWiFiLandscapeController
             EditorApplication.currentScene.Contains("SteeringWheelClientScene"))
         {
             //we only need to execute once on our scenes
-            PlayerSettings.defaultInterfaceOrientation = UIOrientation.Portrait;
+            PlayerSettings.defaultInterfaceOrientation = UIOrientation.LandscapeLeft;
             EditorApplication.hierarchyWindowChanged -= OnHierarchyChange;
         }
 
